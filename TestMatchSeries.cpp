@@ -17,6 +17,16 @@ int main() {
             eng++;
             }
         }
+		
+		vector<string> strarray;
+
+    for(i = 0; i < N; i++)
+ {
+        string Fname;
+
+        string Eid;
+
+        cin >> Fname >> Eid
     
     if(india>eng)
     cout<<"India"<<endl;
@@ -27,22 +37,17 @@ int main() {
 	}
 	return 0;
 }
-#include <iostream>
-#include <cstddef>
-#include <queue>
-#include <string>
-#include <cstdlib>
 
-using namespace std;    
-class Node{
-    public:
-        int data;
-        Node *left,*right;
-        Node(int d){
-            data=d;
-            left=right=NULL;
-        }
-};
+
+
+//     public:
+//         int data;
+//         Node *left,*right;
+//         Node(int d){
+//             data=d;
+//             left=right=NULL;
+//         }
+// };
 class Solution{
     public:
           Node* insert(Node* root, int data){
