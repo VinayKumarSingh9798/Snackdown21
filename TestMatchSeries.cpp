@@ -17,34 +17,7 @@ int main() {
             eng++;
             }
         }
-    
-    if(india>eng)
-    cout<<"India"<<endl;
-    else if (eng>india)
-    cout<<"England"<<endl;
-    else
-    cout<<"Draw"<<endl;
-	}
-	return 0;
-}
-#include <iostream>
-#include <cstddef>
-#include <queue>
-#include <string>
-#include <cstdlib>
-
-using namespace std;    
-class Node{
-    public:
-        int data;
-        Node *left,*right;
-        Node(int d){
-            data=d;
-            left=right=NULL;
-        }
-};
-class Solution{
-    public:
+		public:
           Node* insert(Node* root, int data){
             if(root==NULL){
                 return new Node(data);
@@ -61,6 +34,43 @@ class Solution{
                  }           
            return root;
            }
+    
+    if(india>eng)
+    cout<<"India"<<endl;
+    else if (eng>india)
+    cout<<"England"<<endl;
+    else
+    cout<<"Draw"<<endl;
+	}
+	return 0;
+}
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n;
+
+  cout << "Enter an integer: ";
+  cin >> n;
+    
+  (n % 2 == 0) ? cout << n << " is even." :  cout << n << " is odd.";
+    
+  return 0;
+}
+
+
+using namespace std;    
+class Node{
+    public:
+        int data;
+        Node *left,*right;
+        Node(int d){
+            data=d;
+            left=right=NULL;
+        }
+};
+class Solution{
+    
         }
      
   void levelOrder(Node * root){
