@@ -17,23 +17,7 @@ int main() {
             eng++;
             }
         }
-		public:
-          Node* insert(Node* root, int data){
-            if(root==NULL){
-                return new Node(data);
-            }
-            else{
-                Node* cur;
-                if(data<=root->data){
-                    cur=insert(root->left,data);
-                    root->left=cur;
-                }
-                else{
-                   cur=insert(root->right,data);
-                   root->right=cur;
-                 }           
-           return root;
-           }
+
     
     if(india>eng)
     cout<<"India"<<endl;
@@ -44,31 +28,17 @@ int main() {
 	}
 	return 0;
 }
-#include <iostream>
-using namespace std;
-
-int main() {
-  int n;
-
-  cout << "Enter an integer: ";
-  cin >> n;
-    
-  (n % 2 == 0) ? cout << n << " is even." :  cout << n << " is odd.";
-    
-  return 0;
-}
 
 
-using namespace std;    
-class Node{
-    public:
-        int data;
-        Node *left,*right;
-        Node(int d){
-            data=d;
-            left=right=NULL;
-        }
-};
+
+//     public:
+//         int data;
+//         Node *left,*right;
+//         Node(int d){
+//             data=d;
+//             left=right=NULL;
+//         }
+// };
 class Solution{
     
         }
