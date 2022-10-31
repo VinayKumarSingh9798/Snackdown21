@@ -10,7 +10,7 @@ int main() {
 	    cin>>a>>b>>c;
 	    if(a==7|| b==7 || c==7)
 	    cout<<"YES"<<endl;
-	    else
+	    else m,
 	    cout<<"NO"<<endl;
 	}
 	return 0;
